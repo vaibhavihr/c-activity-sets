@@ -1,0 +1,21 @@
++l
+1	//5. Write a C program to compare three numbers using **pass by value**
+2	#include<stdio.h>
+3	int input();
+4	int compare(int a, int b, int c);
+5	void output(int a, int b, int c, int largest);
+6	int main(){
+7	int a,b,c,larg;
+8	a=input();
+9	b=input();
+10	c=input();
++r
+Starting program: c:\Users\vaibh\c-activity-sets\c-activity-sets\set01/./problem05.exe 
+[New Thread 20176.0x2a0]
+[New Thread 20176.0x21e8]
+[Inferior 1 (process 20176) exited normally]
++s
+The program is not being run.
++s
+The program is not being run.
++q
