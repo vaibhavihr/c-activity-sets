@@ -1,0 +1,8 @@
+Compilation started at 1/22/2024, 11:51:54 AM
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set01\problem02.c:2:1: warning: data definition has no type or storage class
+ uehfinfcijsncij;
+ ^~~~~~~~~~~~~~~
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set01\problem02.c:2:1: warning: type defaults to 'int' in declaration of 'uehfinfcijsncij' [-Wimplicit-int]
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 1/22/2024, 11:51:54 AM
