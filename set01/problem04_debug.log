@@ -1,0 +1,35 @@
++l
+2	
+3	#include<stdio.h>
+4	
+5	int input();
+6	void add(int a, int b, int *sum);
+7	void output(int a, int b, int sum);
+8	int main()
+9	{
+10	int a,b,sum;
+11	a=input();
++r
+Starting program: c:\Users\vaibh\c-activity-sets\c-activity-sets\set01/./problem04.exe 
+[New Thread 10404.0x4f24]
+[New Thread 10404.0x10c0]
+[Inferior 1 (process 10404) exited normally]
++l
+12	b=input();
+13	add(a,b,&sum);
+14	output(a,b,sum);
+15	return 0;
+16	}
+17	int input()
+18	{
+19	    int a;
+20	    printf("Enter the number:");
+21	    scanf("%d",&a);
++r
+Starting program: c:\Users\vaibh\c-activity-sets\c-activity-sets\set01/./problem04.exe 
+[New Thread 6968.0x219c]
+[New Thread 6968.0x3954]
+[Inferior 1 (process 6968) exited normally]
++s
+The program is not being run.
++q
