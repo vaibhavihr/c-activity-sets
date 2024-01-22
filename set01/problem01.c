@@ -3,4 +3,5 @@
 int main()
 {
     printf("I am Vaibhavi");
+    return 0;
 }
