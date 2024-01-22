@@ -1,0 +1,52 @@
++l
+1	//6. Write a C program to compare three numbers using **pass by reference**
+2	#include<stdio.h>
+3	int input();
+4	void compare(int a, int b, int c, int *largest);
+5	void output(int a, int b, int c, int largest);
+6	int main(){
+7	    int a,b,c,lar;
+8	    a=input();
+9	    b=input();
+10	    c=input();
++l
+11	    compare(a,b,c,&lar);
+12	    output(a,b,c,lar);
+13	    return 0;
+14	}
+15	int input()
+16	{
+17	    int a;
+18	    printf("Enter the number:");
+19	    scanf("%d",&a);
+20	    return a;
++l
+21	}
+22	void compare(int a, int b, int c, int *largest)
+23	{
+24	    if (a>b&&a>c)
+25	    {
+26	        *largest=a;
+27	    }
+28	    else if (b>a&&b>c)
+29	    {
+30	        *largest=b;
++l
+31	    }
+32	    else
+33	    {
+34	        *largest=c;
+35	    }
+36	    
+37	}
+38	void output(int a, int b, int c, int largest)
+39	{
+40	    printf("Largest of %d, %d ,%d is %d",a,b,c,largest);
++r
+Starting program: c:\Users\vaibh\c-activity-sets\c-activity-sets\set01/./problem06.exe 
+[New Thread 20268.0x4c90]
+[New Thread 20268.0x3370]
+[Inferior 1 (process 20268) exited normally]
++s
+The program is not being run.
++q
