@@ -1,23 +1,20 @@
 //6. Write a C program to compare three numbers using **pass by reference**
 #include<stdio.h>
-int input();
+void input(int *a,int *b,int *c);
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
 int main(){
     int a,b,c,lar;
-    a=input();
-    b=input();
-    c=input();
+   input(&a, &b, &c);
     compare(a,b,c,&lar);
     output(a,b,c,lar);
     return 0;
 }
-int input()
+void input(int *a,int *b,int *c)
 {
-    int a;
-    printf("Enter the number:");
-    scanf("%d",&a);
-    return a;
+    printf("Enter three number:");
+    scanf("%d %d %d",a,b,c);
+    
 }
 void compare(int a, int b, int c, int *largest)
 {

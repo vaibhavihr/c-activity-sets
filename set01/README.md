@@ -90,7 +90,7 @@ The largest of 1,2 and 3 is 3.
 ***Function Declarations***
 
 ```c
-int input();
+int input(int *a,int *b,int *c);
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
 ```
