@@ -1,0 +1,44 @@
++l
+1	//7. Write a C program to find sum of all natural numbers until _n_
+2	#include<stdio.h>
+3	int input_n();
+4	int sum_n_nos(int n);
+5	void output(int n, int sum);
+6	int  main()
+7	{
+8	    int n,sum;
+9	    n=input_n();
+10	    sum=sum_n_nos(n);
++l
+11	    output(n,sum);
+12	    return 0;
+13	
+14	}
+15	int input_n()
+16	{
+17	    int n;
+18	    printf("Enter the number upto which you want sum:");
+19	    scanf("%d",&n);
+20	    return n;
++l
+21	}
+22	int sum_n_nos(int n)
+23	{
+24	    int sum=0;
+25	    for (int i = 0; i <= n; i++)
+26	    {
+27	        sum+=i;
+28	    }
+29	    return sum;
+30	    
++l
+31	}
+32	void output(int n, int sum)
+33	{
+34	    printf("sum of first %d numbers is %d",n,sum);
+35	}+r
+Starting program: c:\Users\vaibh\c-activity-sets\c-activity-sets\set01/./problem07.exe 
+[New Thread 2564.0x3d88]
+[New Thread 2564.0x4b94]
+[Inferior 1 (process 2564) exited normally]
++q

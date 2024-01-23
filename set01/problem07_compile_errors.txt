@@ -1,0 +1,12 @@
+Compilation started at 1/23/2024, 9:42:08 AM
+Compilation finished at 1/23/2024, 9:42:10 AM
+Compilation started at 1/23/2024, 9:42:59 AM
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set01\problem07.c: In function 'input_n':
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set01\problem07.c:19:5: error: expected ';' before 'scanf'
+     scanf("%d",&n);
+     ^~~~~
+Compilation finished at 1/23/2024, 9:42:59 AM
+Compilation started at 1/23/2024, 9:43:10 AM
+Compilation finished at 1/23/2024, 9:43:11 AM
+Compilation started at 1/23/2024, 9:43:28 AM
+Compilation finished at 1/23/2024, 9:43:29 AM
