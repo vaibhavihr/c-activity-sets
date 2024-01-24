@@ -34,9 +34,9 @@ Complex input_complex()
 {
     Complex c;
     printf("Enter the real part:");
-    scanf("%f",c.real);
+    scanf("%f",&c.real);
     printf("Enter the imaginary part:");
-    scanf("%f",c.imaginary);
+    scanf("%f",&c.imaginary);
     return c;
 }
 void input_n_complex(int n, Complex c[n])
