@@ -33,7 +33,7 @@ Complex add_complex(Complex a, Complex b)
 {
 	Complex sum;
 	sum.real=a.real+b.real;
-	sum.imaginary=a.imaginary+a.imaginary;
+	sum.imaginary=a.imaginary+b.imaginary;
 	return sum;
 }
 void output(Complex a, Complex b, Complex sum)
