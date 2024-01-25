@@ -20,3 +20,27 @@ what is stdio.h ?
 it is header file realted to input and output of the function.
 
 what is a function prototype?
+return type , number of argument ,function name 
+
+what is use of fun prototype?
+helps complier check funtion to return right type of paramters, data type and return value of parameter
+
+what is 
+int main()
+{
+    ....
+}
+it is an entry point of program ,main is function and returns and integer
+what is 
+int main()
+{
+    printf("My name ")
+}
+what is printf ? it is a standard library function used to print the statement or string within the double quotes ont the terminal
+
+what is \n?
+\ is called as escape charcter 
+\n is to escape to next line in the terminal.
+
+what does return statement do?
+transfer control from called function to calling function and optionally returns a value 
