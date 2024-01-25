@@ -1,0 +1,22 @@
+what is # ?
+it wil be processed by preprocessor
+
+what is preprocessor?
+it gives output for the provided input. and only executes lines starting with #
+
+what is compiler?
+it converts c- sorce file to executable.
+
+what is preprocessor directive?
+include 
+
+what is the meaning of process in the preprocessor 
+#include <stdio.h>
+preprocessor takes input and provides output. 
+preprocessor only process the lines starting with # it takes in this as c source and provides c source 
+it means after the process the header file (stdio.h)will execute its works 
+
+what is stdio.h ?
+it is header file realted to input and output of the function.
+
+what is a function prototype?
