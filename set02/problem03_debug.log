@@ -1,0 +1,7 @@
++cd "c:\Users\vaibh\c-activity-sets\c-activity-sets\set02"
+"c:\Users\vaibh\c-activity-sets\c-activity-sets\set02": Invalid argument.
++gcc -g "c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem03.c" -o "c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem03.exe"
+Undefined command: "".  Try "help".
++q
