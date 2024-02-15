@@ -3,5 +3,5 @@
 int main()
 {
     printf("I am Vaibhavi");
-    return 0;
+    return 1;
 }
