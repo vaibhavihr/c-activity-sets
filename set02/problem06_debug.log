@@ -1,0 +1,114 @@
++q
++b main
+Breakpoint 1 at 0x401471: file c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c, line 13.
++r
+Starting program: c:\Users\vaibh\c-activity-sets\c-activity-sets\set02/./problem06.exe 
+[New Thread 9188.0x4718]
+[New Thread 9188.0x374c]
+
+Breakpoint 1, main () at c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:13
+13	    input_string(original);
++n
+14	    str_reverse(original, reversed);
++s
+str_reverse (str=0x61febc "world", rev_str=0x61fe58 "¨þa") at c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:26
+26	    int length = strlen(str);
++p str
+$1 = 0x61febc "world"
++p length
+$2 = 6422204
++n
+29	    for (i = length - 1, j = 0; i >= 0; i--, j++){
++p length
+$3 = 5
++p length
+$4 = 5
++n
+30	        rev_str[j] = str[i];
++p i
+$5 = 4
++p j
+$6 = 0
++n
+29	    for (i = length - 1, j = 0; i >= 0; i--, j++){
++p i
+$7 = 4
++p j
+$8 = 0
++rev_str[j]
+Undefined command: "rev_str".  Try "help".
++p rev_str[j]
+$9 = 100 'd'
++p str[i]
+$10 = 100 'd'
++p str[i]
+$11 = 100 'd'
++n
+30	        rev_str[j] = str[i];
++p i
+$12 = 3
++p j
+$13 = 1
++n
+29	    for (i = length - 1, j = 0; i >= 0; i--, j++){
++p rev_str[j]
+$14 = 108 'l'
++p str[i]
+$15 = 108 'l'
++n
+30	        rev_str[j] = str[i];
++p i
+$16 = 2
++n
+29	    for (i = length - 1, j = 0; i >= 0; i--, j++){
++n
+30	        rev_str[j] = str[i];
++p i
+$17 = 1
++n
+29	    for (i = length - 1, j = 0; i >= 0; i--, j++){
++n
+30	        rev_str[j] = str[i];
++p i
+$18 = 0
++p j
+$19 = 4
++p rev_str[j]
+$20 = -110 '’'
++p str[i]
+$21 = 119 'w'
++n
+29	    for (i = length - 1, j = 0; i >= 0; i--, j++){
++p rev_str[j]
+$22 = 119 'w'
++p rev_str[j]
+$23 = 119 'w'
++n
+32	    rev_str[j] = '\0';
++n
+33	}
++p rev_str[j]
+$24 = 0 '\000'
++n
+main () at c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:15
+15	    output(original, reversed);
++n
+17	    return 0;
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 2/24/2024, 9:02:53 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 2/24/2024, 9:03:19 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++q
+A debugging session is active.
+
+	Inferior 1 [process 9188] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

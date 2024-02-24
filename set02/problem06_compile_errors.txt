@@ -1,0 +1,30 @@
+Compilation started at 2/24/2024, 8:40:41 PM
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'main':
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:12:1: warning: implicit declaration of function 'input_stringz' [-Wimplicit-function-declaration]
+ input_stringz(original);
+ ^~~~~~~~~~~~~
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'str_reverse':
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:23:21: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+        int length = strlen(str);
+                     ^~~~~~
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:23:21: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:23:21: note: include '<string.h>' or provide a declaration of 'strlen'
+C:\Users\vaibh\AppData\Local\Temp\ccg4lm7T.o: In function `main':
+c:/Users/vaibh/c-activity-sets/c-activity-sets/set02/problem06.c:12: undefined reference to `input_stringz'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/24/2024, 8:40:42 PM
+Compilation started at 2/24/2024, 8:41:10 PM
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c: In function 'main':
+c:\Users\vaibh\c-activity-sets\c-activity-sets\set02\problem06.c:13:1: warning: implicit declaration of function 'input_stringz' [-Wimplicit-function-declaration]
+ input_stringz(original);
+ ^~~~~~~~~~~~~
+C:\Users\vaibh\AppData\Local\Temp\cckp8Tzj.o: In function `main':
+c:/Users/vaibh/c-activity-sets/c-activity-sets/set02/problem06.c:13: undefined reference to `input_stringz'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 2/24/2024, 8:41:10 PM
+Compilation started at 2/24/2024, 8:41:24 PM
+Compilation finished at 2/24/2024, 8:41:24 PM
+Compilation started at 2/24/2024, 8:49:13 PM
+Compilation finished at 2/24/2024, 8:49:14 PM
+Compilation started at 2/24/2024, 8:50:04 PM
+Compilation finished at 2/24/2024, 8:50:04 PM
