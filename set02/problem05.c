@@ -22,10 +22,10 @@ int input()
 int find_gcd(int a, int b)
 {
      while (b != 0) {
-        a %= b;
+        a = a% b;
         if (a == 0)
             return b;
-        b %= a;
+        b=b% a;
     }
     return a;
 }
