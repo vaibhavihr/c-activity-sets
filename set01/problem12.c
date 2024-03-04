@@ -58,7 +58,7 @@ Complex add_n_complex(int n, Complex c[n])
 {
     Complex result={0.0,0.0};
     for (int i = 0; i < n; i++)
-    {
+    { 
         result=add(result,c[i]);
     }
     return result;
